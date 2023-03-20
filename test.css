@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.menu {
+  display: flex;
+  gap: 0;
+  font-size: 18px;
+  justify-content: center;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+p {
+  text-align: justify;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  background-position: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  float: right;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+
+.imglogo {
+  width: 7vh;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(202, 144, 69);
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  color: whitesmoke;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: blanchedalmond;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* fixed box-shadow color */
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style for aside */
+aside {
+  height: 970px; /* fixed height unit */
+  width: 140px;
+  position: absolute;
+  z-index: 0;
+  top: 10vh;
+  right: 0;
+  background-color: red;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style for main content */
+.display {
+  display: flex;
+  background: url("7801201.jpg") no-repeat;
+  flex-direction: column;
+}
+
+.content-title {
+  color: rgb(236, 109, 109);
+  font-family: sans-serif;
+  padding-right: 850px;
+  font-size: 4em;
+}
+
+.content {
+  color: white;
+  font-family: 'sans-serif';
+  padding-left: 50px;
+  padding-right: 950px;
+  font-size: large;
+}
+
+/* Style for footer */
+footer {
+  color: #ddd;
+  background-color: rgb(202, 144, 69);
+  text-align: center;
+  padding: 30px
+}
